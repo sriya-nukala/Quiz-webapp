@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Quiz.css">
+        <title>
+            Web Tech Theory Assignment 20BCI7020- Sriya
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="container" id="quii">
+            <div class="quiz">
+                <h2 id="question">Question</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="atext">answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="btext">answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="ctext">answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="dtext">answer</label>
+                    </li>
+                </ul>
+            </div>
+            <input type="submit" value="SUBMIT" id="button">
+            <form action="Quiz.php" method="post">
+                <input type="hidden" name="reload" id="reload">
+            </form>
+            
+        </div>
+        
+        <script src="Quiz.js"></script>
+    </body>
+    
+</html>
